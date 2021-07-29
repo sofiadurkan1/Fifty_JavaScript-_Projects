@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background-image: url('./images/Istanbul.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height:100vh;
+    width: 100vw;
+    z-index: -1;
+    filter: blur(20px);
+}
+
+.loading-text{
+    font-size: 2rem;
+    color: #fff;
+}
