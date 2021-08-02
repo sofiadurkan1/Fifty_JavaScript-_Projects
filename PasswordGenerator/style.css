@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+html,body{
+    display:grid;
+    height:100%;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(228, 226, 105);
+}
+
+.container{
+    width:450px;
+    background:rgb(228, 134, 46);
+    border:1px solid rgb(209, 121, 38);
+    border-radius:5px;
+    box-shadow: 10px 10px  rgb(214, 148, 26);
+    padding:20px 25px;
+
+}
+
+.container .text{
+    font-size:1.7rem;
+    color:rgb(199, 10, 10);
+    font-weight:600;
+    line-height:35px;
+    padding-bottom: 30px;
+}
+
+.container .input-data{
+    margin: 20px 5px 15px 5px;
+
+}
+
+.container span{
+    color:white;
+    margin-left: 300px;
+    display:none;
+}
+
+.input-data .display{
+    height:45px;
+    width:100%;
+    display: flex;
+    position:relative;
+}
+
+.input-data .display input{
+    height:100%;
+    width:100%;
+    outline:none;
+    background: #df6b0d;
+    border:1px solid rgb(221, 121, 7);
+    padding: 10px;
+    font-size: 17px;
+    color:#eee;
+    pointer-events: none;
+    user-select: none;
+}
+
+.display i{
+    position:absolute;
+    right:15px;
+    top: 50%;
+    transform:translateY(-50%);
+    color: rgb(173, 23, 35);
+    font-size:25px;
+    cursor: pointer;
+    display:inline;
+
+}
+.display i.fas{
+    display:none;
+
+}
+.input-data button {
+    height: 45px;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    background-color: #df6b0d;
+    border: 1px solid rgb(221, 121, 7);
+    color: rgb(29, 26, 26);
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .input-data button:hover{
+      background: rgb(238, 70, 3);
+  }
