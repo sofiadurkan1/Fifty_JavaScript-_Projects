@@ -14,10 +14,13 @@ submitBtn.addEventListener('click', function() {
     }
 })
 
+emailField.addEventListener('keyup', function(event) {
+    if(event.code === 'Enter'){
+        event.preventDefault();
+        document.getElementById("submit").click();
+    }
 
-
-
-
+})
 
 
 
