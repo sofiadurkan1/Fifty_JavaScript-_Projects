@@ -7,3 +7,5 @@
 3)Score Keeper ---- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/ScoreKeeper
 
 4)Click Me Boxes --- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/ClickMeBoxes
+
+5)Password Generator --- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/PasswordGenerator
