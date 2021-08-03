@@ -9,3 +9,5 @@
 4)Click Me Boxes --- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/ClickMeBoxes
 
 5)Password Generator --- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/PasswordGenerator
+
+6)Email Validation --- https://sofiadurkan1.github.io/Fifty_JavaScript-_Projects/EmailValidation
