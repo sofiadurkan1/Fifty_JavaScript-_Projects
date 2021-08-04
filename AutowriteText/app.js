@@ -1,5 +1,5 @@
-const text = "Codersclan is the best"
-let index = 0;
+const text = "Codersclan is the best!!!!!!"
+let index= 0;
 
 function writeText(){
     document.body.innerText = text.slice(0,index);
