@@ -5,7 +5,7 @@ const response = document.getElementById('response');
 
 submitBtn.addEventListener('click', function() {
     const email = emailField.value;
-    if(validateEmail(email)) {
+    if(isValid(email)) {
         console.log("Valid email")
         response.innerHTML = "Valid email"
     }else{
@@ -64,7 +64,7 @@ function isValid(email) {
 
 //REGEX
 
-function validateEmail(email) {
+function isValid(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
   }
